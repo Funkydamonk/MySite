@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/css.css">
+	<title>MyPersonalPage</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="navbar">
+				<ul> 
+					<li class="navbar__item"><a href="#" class="hover">Статьи</a></li>
+					<li class="navbar__item"><a href="#" class="hover">Обо мне</a></li>
+					<li class="navbar__item"><a href="#" class="hover">Портфолио</a></li>
+					<li class="navbar__item"><a href="#" class="hover">Написать мне</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<section class="articles">
+				<div class="articles__header">
+					<div class="articles__title title">
+						Все статьи
+					</div>
+					<select name="theme" class="articles__select">
+							<option value="choose-one" selected disabled>Выбрать тему</option>
+							<option value="travel">Путешествия</option>
+							<option value="city">Город</option>
+							<option value="books">Книги</option>
+							<option value="photos">Фотографии</option>
+							<option value="recipe">Рецепты</option>
+						</select>
+				</div>
+				
+				<div class="articles__row">
+					<div class="articles__column">
+						<figure class="articles__item">
+							<img src="img/image 1.png" alt="Берлин">
+							<figcaption>
+								<h3>Путешествие в Берлин в августе</h3>
+								<p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+
+								<div class="articles__tag-and-date">
+									<p>Теги: путешествия</p>
+									<date>29.09.2020</date>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="articles__column">
+						<figure class="articles__item">
+							<img src="img/image 2.png" alt="Колдбрю">
+							<figcaption>
+								<h3>Где выпить колдбрю в Москве</h3>
+								<p>Собрала для вас список любимых кофеен,
+	                        где подают лучший летний напиток.</p>
+	                    	<div class="articles__tag-and-date">
+									<p>Теги: город</p>
+									<date>24.07.2020</date>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="articles__column">
+						<figure class="articles__item">
+							<img src="img/Mask Group.png" alt="Книги">
+							<figcaption>
+								<h3>Прочитано: книжные рекомендации</h3>
+								<p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+								<p class=""></p>
+								<div class="articles__tag-and-date">
+									<p>Теги: книги</p>
+									<date>15.07.2020</date>
+								</div>	
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="articles__row">
+					<div class="articles__column_big">
+						<figure class="articles__item">
+							<img src="img/image 4.png" alt="Книги">
+							<figcaption>
+								<h3>Снимки на плёнку</h3>
+								<p>Поделилась с вами весенними фотографиями, 
+									и секретами удачных снимков.</p>
+								<p class=""></p>
+								<div class="articles__tag-and-date">
+									<p>Теги: фотографии</p>
+									<date>29.06.2020</date>
+								</div>	
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="articles__column_big">
+						<figure class="articles__item">
+							<img src="img/image 5.png" alt="Книги">
+							<figcaption>
+								<h3>Домашний чизкейк </h3>
+								<p>Что может быть лучше чизкейка с сезонными
+									ягодами? Только домашний чизкейк!</p>
+								<p class=""></p>
+								<div class="articles__tag-and-date">
+									<p>Теги: рецепты</p>
+									<date>24.06.2020</date>
+								</div>	
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="articles__footer">
+					<button class="show-more hover_black">Показать ещё</button>
+				</div>	
+			</section>
+			<section class="about">
+				<div class="about__header">
+					<div class="about__title title">
+						Обо мне
+					</div>
+					<div class="about__row">
+						<div class="about__column">
+							<img src="img/Red girl.png" alt="Рыжая девушка">
+						</div>
+						<div class="about__column">
+							<p>Всем привет! Меня зовут Аня, и это мой личный блог.
+							Здесь ты найдёшь рассказы о моих путешествиях, снимки
+							на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+							что мне инетресно.</p>
+							<p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+							портфолио. Ниже размещены несколько моих лучших
+							рабочих текстов. Буду рада новым сотрудничествам! </p>
+							<p>Если вы хотите написать мне — это можно сделать в соцсетях
+							или через форму. Всегда приятно услышать обратную связь
+							от читателей и познакомиться поближе.</p>
+							<p>Приятного чтения!</p>
+
+							<blockquote>Я верю, что каждый раз пробуя новое,
+							выходящее за зону моего комфорта,
+							я действительно узнаю настояющую
+							себя. </blockquote>
+						</div>
+					</div>
+			</section>
+			<section class="portfolio">
+				<div class="portfolio__header">
+					<div class="portfolio__title title">
+						Портфолио
+					</div>
+				<div class="portfolio__row">
+					<div class="portfolio__column">
+						<figure class="portfolio__item">
+							<img src="img/image 8.png" alt="">
+							<figcaption>
+								<h3>Блог HTML Academy</h3>
+								<p>«Как учиться продуктивно»</p>
+								<p>Про основные методы обучения,
+								которые помогут быстро и надолго
+								запомнить информацию.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="portfolio__column">
+						<figure class="portfolio__item">
+							<img src="img/image 7.png" alt="">
+							<figcaption>
+								<h3>Журнал «LNK»</h3>
+								<p>«Зачем поцели нужны человеку?
+								И какие они бывают»</p>
+								<p>Поцелуи — повсеместная ежедневная
+								практика. Но зачем люди целуются?
+								Какие смысли вкладывают в этот ритуал?
+								И где корни этой практики?</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="portfolio__column">
+						<figure class="portfolio__item">
+							<img src="img/image 9.png" alt="">
+							<figcaption>
+								<h3>Журнал «Т — Л</h3>
+								<p>«Советы по эффективной
+								удалённой работе»</p>
+								<p class=""></p>
+								<p>Поделилась лайфхаками, которые помогают
+								мне работать продуктивно из дома. </p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+			<div class="portfolio__footer">
+				<button class="show-more hover_black">Показать ещё</button>
+			</div>	
+			<section class="form">
+				<div class="form__header">
+					<div class="form__title title">
+						Написать мне
+					</div>
+				<div class="form__body">
+					<form action="">
+						<div class="form__row">
+							<div class="form__column">
+								<label for="name">Ваше имя</label>
+								<input class="form__input" type="text" id="name" placeholder="Иван Иванов">
+							</div>
+							<div class="form__column">
+								<label for="email">Email</label>
+								<input class="form__input" id="email" type="email" placeholder="google@gmail.com">
+							</div>
+						</div>
+						<div class="form__message">
+							<label for="message">Сообщение</label>
+							<textarea name="" id="message" cols="30" rows="10" class="form__input" placeholder="Напишите здесь ваше сообщение." id="message"></textarea>
+						</div>
+
+							<div class="form__footer">
+								<input type="submit" class="show-more hover_black" value="Отправить">
+							</div>	
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<ul class="footer__links">
+				<li class="footer__item hover"><a href="#" class="hover">ВК</a></li>
+				<li class="footer__item hover"><a href="#" class="hover">Телеграм</a></li>
+				<li class="footer__item hover"><a href="#" class="hover">Инстрограм</a></li>
+				<li class="footer__item hover"><a href="#" class="hover">Твиттер</a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
